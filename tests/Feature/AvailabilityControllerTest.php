@@ -57,4 +57,3 @@ class AvailabilityControllerTest extends TestCase
         ]);
     }
 }
-git remote set-url origin https://github.com/Gitpream/UserAvailability.git
