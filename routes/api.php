@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
+
+Route::group(['prefix' => 'availability'], function () {
+    Route::post('/', [AvailabilityController::class, 'setAvailability'])->middleware('auth:api');
+    Route::get('/{userId}', [AvailabilityController::class, 'getAvailability'])->middleware('auth:api');
 });

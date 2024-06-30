@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
+            $table->string('password')->after('email');
             $table->unsignedBigInteger('service_category_id');
             $table->timestamps();
 
