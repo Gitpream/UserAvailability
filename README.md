@@ -1,6 +1,6 @@
-yo# User Availability System
+## User Availability System
 
-A brief description of what your project does and its purpose.
+User Availability Management System (Simplified)
 
 ## Table of Contents
 
