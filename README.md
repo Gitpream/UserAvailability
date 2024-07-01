@@ -10,7 +10,6 @@ A brief description of what your project does and its purpose.
 - [Configure Database](#set-environment)
 - [Run Migrations](#set-environment)
 - [Running Tests](#running-tests)
-- [Running Tests](#running-tests)
 
 ## Installation
 
