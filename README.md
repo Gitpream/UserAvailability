@@ -6,9 +6,11 @@ A brief description of what your project does and its purpose.
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Set Up Environment](#set-environment)
+- [Configure Database](#set-environment)
+- [Run Migrations](#set-environment)
 - [Running Tests](#running-tests)
-- [Contributing](#contributing)
-- [License](#license)
+- [Running Tests](#running-tests)
 
 ## Installation
 
@@ -23,3 +25,5 @@ A brief description of what your project does and its purpose.
    ```bash
    git clone https://github.com/your-username/project-name.git
    cd project-name
+   composer install
+
