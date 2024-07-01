@@ -5,7 +5,7 @@ A brief description of what your project does and its purpose.
 ## Table of Contents
 
 - [Installation](#installation)
-- [Set Up Environment](#set environment)
+- [Set Up Environment](#set-environment)
 - [Configure Database](#configure-db)
 - [Run Migrations](#run-migration)
 - [Running Tests](#running-tests)
