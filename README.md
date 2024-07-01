@@ -5,9 +5,9 @@ A brief description of what your project does and its purpose.
 ## Table of Contents
 
 - [Installation](#installation)
-- [Set Up Environment](#set-environment)
+- [Set Up Environment](#set environment)
 - [Configure Database](#configure-db)
-- [Run Migrations](#set-environment)
+- [Run Migrations](#run-migration)
 - [Running Tests](#running-tests)
 
 ## Installation
@@ -24,8 +24,10 @@ A brief description of what your project does and its purpose.
    git clone https://github.com/your-username/project-name.git
    cd project-name
    composer install
-
+   
 ## Set-environment
+
+1. **Change Env file:**
 
    ```bash
    cp .env.example .env
@@ -35,9 +37,18 @@ A brief description of what your project does and its purpose.
 
    **Update .env with your database credentials.**
 
-## Set-environment
+## Run-migration
+1. **Change Env file:**
 
    ```bash
-   cp .env.example .env
-   php artisan key:generate
+   php artisan migrate
+
+
+## Run-tests
+
+   ```bash
+   php artisan test
+
+
+
 
