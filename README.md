@@ -1,13 +1,12 @@
-# User Availability System
+yo# User Availability System
 
 A brief description of what your project does and its purpose.
 
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
 - [Set Up Environment](#set-environment)
-- [Configure Database](#set-environment)
+- [Configure Database](#configure-db)
 - [Run Migrations](#set-environment)
 - [Running Tests](#running-tests)
 
@@ -25,4 +24,20 @@ A brief description of what your project does and its purpose.
    git clone https://github.com/your-username/project-name.git
    cd project-name
    composer install
+
+## Set-environment
+
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+
+## Configure-db
+
+   **Update .env with your database credentials.**
+
+## Set-environment
+
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
 
